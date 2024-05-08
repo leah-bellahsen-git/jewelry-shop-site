@@ -137,38 +137,16 @@ export default function AddProduct() {
                                     )} />
                                     <label htmlFor="url" className={classNames({ 'p-error': errors.root })}>picture</label>
                                 </span>
-                                {/* !!Add a image with choose a url from the computare!! */}
-                                {/* <br/> */}
-                                {/* <span className="p-float-label">
-                                    <Controller name="url" control={control} render={({ field, fieldState }) => (
-                                        <FileUpload id={field.name} {...field} autoFocus className={classNames({ 'p-invalid': fieldState.invalid })}  mode="basic" name="demo[]" url="/api/upload" accept="image/*" maxFileSize={1000000} onUpload={onUpload} chooseLabel="choose image" />
-
-                                    )} />
-                                    <label htmlFor="url" className={classNames({ 'p-error': errors.root })}>picture</label>
-                                </span> */}
-                                {/* !!Add a image with choose a url from the computare!! */}
                                 <Toast ref={toast}></Toast>
 
                                 {getFormErrorMessage('url')}
                                 {console.log("toast: ", toast.current?.value)}                            
                                 </div>
-
-
-
-
                             <br />
-
-
-
-                            <div className="card flex justify-content-center">
-                                {/* <FileUpload mode="basic" name="demo[]" url="/api/upload" accept="image/*" customUpload uploadHandler={customBase64Uploader} /> */}
-                            </div>
+                            {/* <div className="card flex justify-content-center">
+                            </div> */}
                             <div>
-                                {/* <Button type="submit" label="Submit" className="p-3 w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10" /> */}
                                 <Button type="submit" label="Submit" className="mt-2" />
-
-                                {/* <Button label ="Sign-In" onClick={(e) => hide(e)} text className="p-3 w-full text-primary-50 border-1 border-white-alpha-30 hover:bg-white-alpha-10"></Button> */}
-
                             </div>
 
                         </form>

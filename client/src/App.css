@@ -57,11 +57,24 @@
   border-radius: 10px;
   margin-bottom: 1rem;
 }
+.text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(117, 139, 19, 0.171);
+  text-size-adjust: 500px;
+}
 
+/* .p-datatable-tbody tr {
+  background: gray !important;
+} */
+.grid-nogutter{
+  background: rgb(148, 142, 54);
+     /* background-image: linear-gradient(to right rgba(173, 157, 5, 0), rgba(173,157,0,1));  */
+
+}
 .App {
   /*רקע background-image: linear-gradient( rgba(173, 157, 5, 0), rgb(121, 109, 1)); */
   /* background-image: './shutterstock_299127830.webp'; */
-   background:url('../public/jewelry/shutterstock_299127830.jpg'); 
+   background:url('../public/jewelry/shutterstock_223221508.jpg'); 
    background-size: cover;
    background-repeat: no-repeat;
   /* min-height: 100vh; */

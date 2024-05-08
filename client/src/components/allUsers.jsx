@@ -23,7 +23,7 @@ const AllUsers = () => {
     console.log("All users: ", data);
 
     const getCustomersSmall = () => {
-        return Promise.resolve(data?.slice(0, 10));
+        return Promise.resolve(data);
     }
 
     const getCustomersMedium = (data) => {
