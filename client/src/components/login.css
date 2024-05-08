@@ -1,0 +1,11 @@
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 50%;
+        min-width: 0;
+    }
+}

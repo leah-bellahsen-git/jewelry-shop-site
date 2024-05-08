@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#myButton {
+  color: white;
+}
+
+.img {
+  size: '100px';
+
+}
+
+#bgi {
+  background-image: url('../public/jewelry/shutterstock_223221508.jpg');
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.App {
+  /*רקע background-image: linear-gradient( rgba(173, 157, 5, 0), rgb(121, 109, 1)); */
+  /* background-image: './shutterstock_299127830.webp'; */
+   background:url('../public/jewelry/shutterstock_299127830.jpg'); 
+   background-size: cover;
+   background-repeat: no-repeat;
+  /* min-height: 100vh; */
+   background-size: 100% 100%;
+   
+
+  /* background-image: linear-gradient(to right rgba(173, 157, 5, 0), rgba(173,157,0,1)); */
+
+  /* background:url('../public/jewelry/shopping1.webp'); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+    background-size: 50%; 
+  min-height: 100vh;
+   width: 100%;
+  height: 100%;
+  background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-size: 100%;  */
+  /* background-size: 80% 90%;
+  max-height: 3vh;
+  max-height: min-content; */
+  /* background-size: auto; */
+}
