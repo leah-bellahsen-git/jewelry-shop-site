@@ -51,12 +51,14 @@
     transform: rotate(360deg);
   }
 }
+
 .card {
   background: var(--surface-card);
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
+
 .commit {
   background: var(--surface-card);
   padding: 2rem;
@@ -65,11 +67,22 @@
   margin-left: 20%;
   margin-right: 20%;
 }
-.msg{
+
+.msg {
   color: rgba(255, 255, 255, 0.856);
   /* border: 1px solid red; */
   -webkit-text-stroke: 1px black;
 }
+
+.fillDiv {
+  background-color: rgb(160, 139, 111);
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 10px;
+  color: transparent;
+  opacity: 0.8;
+}
+
 /* .edit{
   -webkit-text-size-adjust: initial;
 } */
@@ -77,12 +90,12 @@
 .App {
   /*רקע background-image: linear-gradient( rgba(173, 157, 5, 0), rgb(121, 109, 1)); */
   /* background-image: './shutterstock_299127830.webp'; */
-   background:url('../public/jewelry/shutterstock_223221508.jpg'); 
-   background-size: cover;
-   background-repeat: no-repeat;
+  background: url('../public/jewelry/shutterstock_223221508.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   /* min-height: 100vh; */
-   background-size: 100% 100%;
-   
+  background-size: 100% 100%;
+
 
   /* background-image: linear-gradient(to right rgba(173, 157, 5, 0), rgba(173,157,0,1)); */
 
