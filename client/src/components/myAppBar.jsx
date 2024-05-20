@@ -78,7 +78,7 @@ const MyAppBar = () => {
             icon: 'pi pi-comment',
             num: 6,
             template: itemRenderer,
-            url: '/comments'
+            url: '/comment'
         }
         
     ];
